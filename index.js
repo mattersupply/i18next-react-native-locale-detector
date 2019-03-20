@@ -1,4 +1,11 @@
-const { NativeModules } = require('react-native')
-const { RNI18n } = NativeModules
+import { NativeModules } from "react-native";
 
-export default (RNI18n) ? RNI18n.locale.replace(/_/, '-') : ''
+const { RNI18n } = NativeModules;
+const locale = RNI18n ? RNI18n.locale.replace(/_/, "-") : "";
+
+export default {
+  init: Function.prototype,
+  type: "languageDetector",
+  detect: () => locale,
+  cacheUserLanguage: Function.prototype
+};
