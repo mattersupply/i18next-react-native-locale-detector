@@ -1,6 +1,6 @@
 {
   "name": "i18next-react-native-locale-detector",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Detects the locale of a user's phone.",
   "keywords": [
     "android",
@@ -13,7 +13,8 @@
   "main": "index.js",
   "contributors": [
     "Dylan Vann <dylan.vann@gmail.com> (dylanvann.com)",
-    "justjavac (@justjavac)"
+    "justjavac (@justjavac)",
+    "Sebastian (@sebpez)"
   ],
-  "repository": "justjavac/i18next-react-native-locale-detector"
+  "repository": "mattersupply/i18next-react-native-locale-detector"
 }
